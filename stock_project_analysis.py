@@ -71,7 +71,7 @@ def keydate1():
     print('The average price before the event occurred was:', avg_before)
     event_close = amgn_keydate['close']
     print('The closing price on the day of the event was: ', event_close)
-#keydate1()
+keydate1()
 
 # Retrieving keydate 2: 3/5/2013          GILD
 def keydate2():
@@ -123,12 +123,13 @@ def keydate9():
     biib_keydate9 = keydate9[keydate9['symbol'] == 'BIIB']
     print(biib_keydate9)
 
-# Retrieving keydate 1- 8/8/2012 AMGN
+# Retrieving keydate 10 8/8/2012 AMGN
 def keydate10():
     keydate10 = stocksdf.ix['2012-07-28':'2012-08-18']
     amgn_keydate10 = keydate10[keydate10['symbol'] == 'AMGN']
     print(amgn_keydate10)
-keydate10()
+
+
 
 
 

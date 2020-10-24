@@ -7,6 +7,7 @@ Created on Wed Aug 12 14:50:56 2015
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+
 stocks = pd.read_csv('/Users/homw/Documents/MSDS16/Python project/smallCap/smallcap2.csv')
 
 num_plots = 2
